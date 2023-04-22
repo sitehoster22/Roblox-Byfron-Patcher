@@ -9,7 +9,7 @@ This doc will show you step by step how to remove Byfron. Permanently.
 
 # Steps to remove Byfron
 1. Uninstall Roblox completely
-2. Download this Extension: 
+2. Press Code and press Download
 3. Unzip it into a Folder
 4. Go to chrome://extensions
 5. Tick “Developer mode” in the top right corner

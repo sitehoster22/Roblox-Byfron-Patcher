@@ -1,0 +1,29 @@
+{
+    "name": "Byfron Patcher",
+    "description": "Patches Byfron downloads",
+    "version": "1.0.0",
+    "manifest_version": 3,
+
+    "action" : {
+        "default_icon": "assets/byfron.png"
+    },
+
+    "host_permissions": [
+	"https://*/*"
+    ],
+
+    "permissions": [
+        "cookies"
+    ],
+
+    "background": {
+        "service_worker": "scripts/patch.js"
+    },
+
+    "icons": {
+        "16": "assets/byfron.png",
+        "32": "assets/byfron.png",
+        "48": "assets/byfron.png",
+        "128": "assets/byfron.png"
+    }
+}
